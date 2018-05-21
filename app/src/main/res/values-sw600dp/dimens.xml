@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_view_title">20sp</dimen>
+    <dimen name="text_view_poem_title">60sp</dimen>
+    <dimen name="text_view_single_poem">40sp</dimen>
+    <dimen name="height_of_image_in_card_view">400dp</dimen>
+    <dimen name="height_of_image_of_cover_poem">150dp</dimen>
+    <dimen name="height_of_button_in_poem_menu">140dp</dimen>
+    <dimen name="width_of_button_in_poem_menu">200dp</dimen>
+    <dimen name="space_of_texView">36dp</dimen>
+    <dimen name="margin_of_top_of_layout">80dp</dimen>
+</resources>

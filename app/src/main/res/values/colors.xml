@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="text_title">#0a0909</color>
+    <color name="background_main">#d7d5d5</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#ddd</color>
+    <color name="single_poem">#45403a</color>
+    <color name="red">#ff0000</color>
+    <color name="blue_light">#04e7d4</color>
+    <color name="cream">#dded46</color>
+    <color name="green">#78c477</color>
+    <color name="lightPrimaryColor">#BBDEFB</color>
+    <color name="logoBlueColor">#3BCCD9</color>
+
+
+</resources>

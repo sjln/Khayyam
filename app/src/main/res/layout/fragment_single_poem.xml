@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cover_of_single_poem" />
+
+    <TextView
+        android:id="@+id/textView1_single_poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="@dimen/margin_of_top_of_layout"
+        android:textColor="@color/single_poem"
+        android:textIsSelectable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title_single_poem"
+        tools:text="هرچند که رنگ و بوی زیباست مرا"
+        tools:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/textView2_single_poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="@dimen/space_of_texView"
+        android:textColor="@color/single_poem"
+        android:textIsSelectable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1_single_poem"
+        tools:text="چون لاله رخ و چو سرو بالاست مرا"
+        tools:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/textView3_single_poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="@dimen/space_of_texView"
+        android:textColor="@color/single_poem"
+        android:textIsSelectable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_single_poem"
+        tools:text="معلوم نشد که در طربخانه ی خاک"
+        tools:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/textView4_single_poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="@dimen/space_of_texView"
+        android:textColor="@color/single_poem"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3_single_poem"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="نقاش ازل بهر چه آراست مرا"
+        tools:textSize="26dp" />
+
+    <ImageView
+        android:id="@+id/img_left_single_poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vc_left" />
+
+    <ImageView
+        android:id="@+id/img_right_single_poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vc_right" />
+
+    <TextView
+        android:id="@+id/txt_title_single_poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/red"
+        android:textSize="@dimen/text_view_single_poem"
+        fontPath="font/rajab.ttf"
+        app:layout_constraintEnd_toStartOf="@+id/img_right_single_poem"
+        app:layout_constraintStart_toEndOf="@+id/img_left_single_poem"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:text="رباعی 13"
+        tools:ignore="MissingPrefix" />
+</android.support.constraint.ConstraintLayout>

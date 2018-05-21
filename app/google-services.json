@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "643824061214",
+    "firebase_url": "https://khayyam-1ab2e.firebaseio.com",
+    "project_id": "khayyam-1ab2e",
+    "storage_bucket": "khayyam-1ab2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643824061214:android:67efc337be6e4487",
+        "android_client_info": {
+          "package_name": "com.example.davod.khayiam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643824061214-brpa0edsat310nli1t958jquvi5ktvbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.davod.khayiam",
+            "certificate_hash": "48e73c69b6129bde5899ff261c7750833b37b33f"
+          }
+        },
+        {
+          "client_id": "643824061214-dfe5crgdcj8ussan2s9ee4lj9104h6j2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4ifi8VT8PovudwBHbDZfTARM6J2IzOzY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643824061214-dfe5crgdcj8ussan2s9ee4lj9104h6j2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

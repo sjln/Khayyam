@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/main" >
+
+        <item android:id="@+id/main_menu"
+              android:title="@string/main_menu"
+            android:icon="@drawable/vc_main_menu"/>
+
+        <item android:id="@+id/favorites"
+              android:title="@string/favorites"
+            android:icon="@drawable/vc_favorite"/>
+    </group>
+
+    <group android:id="@+id/info">
+
+        <item android:id="@+id/setting"
+            android:title="@string/setting"
+            android:icon="@drawable/vc_settings"/>
+
+        <item android:id="@+id/ratting"
+            android:title="@string/ratting"
+            android:icon="@drawable/vc_star"/>
+
+        <item android:id="@+id/about_us"
+              android:title="@string/about_us"
+            android:icon="@drawable/vc_about_us"/>
+    </group>
+</menu>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">افکار خیام</string>
+    <string name="poems_of_khayyam">رباعیات</string>
+    <string name="biography_of_khayyam">زندگی نامه</string>
+    <string name="search">جست و جو</string>
+    <string name="result_of_khayyam">دست آوردها</string>
+    <string name="welcome">خوش آمدید</string>
+    <string name="menu">فهرست مطالب</string>
+    <string name="poem_menu">فهرست موضوعات</string>
+    <string name="main_menu">صفحه اصلی</string>
+    <string name="first_subject">هدف آفرینش</string>
+    <string name="second_subject">ازل و اجل</string>
+    <string name="third_subject">عاقبت عمر</string>
+    <string name="forth_subject">زندگی در لحظه</string>
+    <string name="txt_search">عبارت مورد نظر خود را وارد کنید</string>
+    <string name="favorites">علاقه مندی ها</string>
+    <string name="poem">رباعی</string>
+    <string name="setting">تنظیمات</string>
+    <string name="about_us">درباره ما</string>
+    <string name="add_favorites">افزودن به علاقه ها</string>
+    <string name="font">فونت</string>
+    <string name="font_size">اندازه قلم</string>
+    <string name="send_to">send to</string>
+    <string name="ratting">امتیاز دادن</string>
+    <string name="khayyam">افکار خیام</string>
+    <string name="fifth_subject">بی خیالی</string>
+    <string name="sixth_subject">درد زندگی</string>
+</resources>

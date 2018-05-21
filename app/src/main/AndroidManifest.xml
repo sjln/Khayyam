@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.davod.khayyam">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_khayyam"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_khayyam_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.davod.khayyam.activity.MainActivity"
+            android:label="@string/khayyam"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.davod.khayyam.activity.PoemsActivity"
+            android:screenOrientation="portrait"
+            android:label="" />
+        <activity
+            android:name="com.example.davod.khayyam.activity.PoemMenuActivity"
+            android:screenOrientation="portrait"
+            android:label="" />
+        <activity
+            android:name="com.example.davod.khayyam.activity.SinglePoemActivity"
+            android:screenOrientation="portrait"
+            android:label="" />
+        <activity
+            android:name="com.example.davod.khayyam.activity.SearchActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/search" />
+        <activity
+            android:name="com.example.davod.khayyam.activity.BiographyActivity"
+            android:screenOrientation="portrait"
+            android:label="" />
+        <activity
+            android:name="com.example.davod.khayyam.activity.SettingActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/setting" />
+        <activity android:name="com.example.davod.khayyam.activity.AboutUsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/about_us" />
+    </application>
+
+</manifest>

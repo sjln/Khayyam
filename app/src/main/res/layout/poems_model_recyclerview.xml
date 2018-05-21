@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageView_poems_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_of_image_of_cover_poem"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/cover_list" />
+
+    <TextView
+        android:id="@+id/txt_poems_title_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/indicator_square_unselected"
+        android:textColor="@color/text_title"
+        android:textSize="@dimen/text_view_poem_title"
+        fontPath="font/rajab.ttf"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_poems_recycler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView_poems_recycler"
+        tools:text="رباعی اول"
+        tools:ignore="MissingPrefix" />
+
+    <TextView
+        android:id="@+id/txt_poems_under_title_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        fontPath="font/rajab.ttf"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_poems_recycler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_poems_title_recycler"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="هرچند که رنگ و بوی زیباست مرا"
+        tools:ignore="MissingPrefix" />
+
+</android.support.constraint.ConstraintLayout>
